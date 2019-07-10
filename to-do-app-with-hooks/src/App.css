@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    background: #209cee;
+    justify-content: center;
+    display: flex;
+}
+
+.app {
+    padding: 30px;
+    display: flex;
+}
+
+.todo-list {
+    background: #e8e8e8;
+    border-radius: 4px;
+    padding: 15px;
+    max-width: 600px;
+    min-width: 400px;
+}
+
+.todo {
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    padding: 3px 10px;
+    font-size: 14px;
+    margin: 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+    height: 2.25em;
+    padding: 3px 10px;
+}
+
+.main {
+    align-items: center;
+    justify-content: center;
+}
+
+.new-item {
+    width: 100%;
+}
+
+/** {*/
+/*    color: hsla(210, 100%, 100%, 0.9) !important;*/
+/*    background: hsla(210, 100%, 50%, 0.5) !important;*/
+/*    outline: solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;*/
+/*}*/
+/** { outline: solid 0.25rem hsla(210, 100%, 100%, 0.5); }*/
